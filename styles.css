@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-position: 0 15%;
+    background-color: hsl(225, 100%, 94%);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    font-family: "Red Hat Display", default;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+main {
+    margin-top: 0;
+}
+.main-container {
+    width: 20rem;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.img-div {
+    padding: 0;
+    margin: 0;
+}
+.top-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+.description {
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 1rem;
+    
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sentence {
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+    color: grey;
+}
+
+.price-card {
+    font-size: 14px;
+    text-align: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 0.8rem 1rem;
+    margin: 1.3rem auto;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.plan-topic, .plan-price {
+    font-size: 12px;
+}
+.music-img {
+    width: 2rem;
+}
+.plan {
+    margin-left: -0.9rem;
+}
+
+.plan-topic {
+    font-weight: 900;
+}
+
+.plan-price {
+    color: grey;
+}
+
+.change {
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.payment-btn {
+    padding: 0.75rem 0;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    background-color: hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
+.cancel-btn {
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    color: grey;
+}
+.cancel-btn:hover{
+    color: black;
+}
+
+
+/***************************/
+.attribution {
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
